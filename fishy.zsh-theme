@@ -1,3 +1,6 @@
+# FILE LOCATION
+# ~/.oh-my-zsh/themes/fishy.zsh-theme
+
 # ZSH Theme emulating the Fish shell's default prompt.
 
 _fishy_collapsed_wd() {
