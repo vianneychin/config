@@ -10,3 +10,6 @@ function addtolastcommit() {
     git add .
     git commit --amend --no-edit
 }
+
+# Opening files with 'code' command
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
